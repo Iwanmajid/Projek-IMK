@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <title>SEKOLAHKU</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/popup.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <script src="assets/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+
+    .content1{
+      background: #e67e22;
+      border: 0px solid #000;
+      height:550px;
+      padding:5px;
+      overflow: hidden;
+    }
+
+    .content2{
+      background: #8e44ad;
+      border: 1px solid #000;
+    }
+    .content3{
+      background: #181b1c;
+    }
+
+    .content4{
+      background: #e67e22;
+      border: 1px solid #000;
+      height:200px;
+      padding:5px;
+      overflow: hidden;
+      font-style: black;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #5dabec;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body style="background-color: #5dabec">
+
+<nav class="navbar my-navbar navbar-default " style="background-color: #218c74">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images\logo.png" width="175px" height="40px" style="margin-top: -10px"></a>
+    </div>    
+  </div>
+</nav>
+
+<div class="myjumbotron" style="background-image: url(images/home.png); background-repeat: no-repeat; background-position: center; background-size: cover; margin-top: -20px;">
+  <div class="container">
+    <div class="row" style="margin-top: 200px;">
+    </div>
+  </div>
+</div>
+
+<div class="container text-center" style="width: 100%;">
+  <div class="row">
+    <div class="col-xs12 content1" style="background-color: #10ac84">
+      <h2 style="font-size: 30px;">Sekolah Mana Yang Ingin Anda Cari??</h2>
+            <!-- <a class="close" href="#">✖</a> -->
+            <center><form action="" method="" >
+              <div class="content" style="position: center; width: 400px;">
+                 <div>
+                  <p align="center" style="font-size: 20px">Kecamatan</p>
+                  <input class="popup-form" type="text" name="Kecamatan">
+                  <select style="width: 390px; height: 30px">
+                    <option nama="Kecamatan" value="-">-</option>
+                    <option nama="Kecamatan" value="Lowokwaru">Lowokwaru</option>
+                    <option nama="Kecamatan" value="Klojen">Klojen</option>
+                    <option nama="Kecamatan" value="Blimbing">Blimbing</option>
+                    <option nama="Kecamatan" value="Sukun">Sukun</option>
+                    <option nama="Kecamatan" value="Kedung Kandang">Kedung Kandang</option>
+                  </select>
+                </div><br>
+                <div>
+                  <p align="center" style="font-size: 20px;">Jenjang</p>
+                  <input class="popup-form" type="text" name="numb_employee">
+                  <select style="width: 390px; height: 30px">
+                    <option nama="Jenjang" value="-">-</option>
+                    <option nama="Jenjang" value="SMA">SMA</option>
+                    <option nama="Jenjang" value="SMK">SMK</option>                    
+                  </select>
+                </div><br>
+                <div>
+                  <p align="center" style="font-size: 20px;">Status</p>
+                  <input class="popup-form" type="text" name="company_name">
+                  <select style="width: 390px; height: 30px">
+                    <option nama="Status" value="-">-</option>
+                    <option nama="Status" value="Negeri">Negeri</option>
+                    <option nama="Status" value="Swasta">Swasta</option>
+                  </select>
+                </div><br>                                
+              </div>
+            </form>
+            <div>
+                  <a href="hasilpencarian.html"><button class="btn-submit-popup" style="margin-top: 10px;width: 400px;background: #34495e;color: #fff;" type="submit" name="submit">CARI</button></a>
+            </div>
+          </center>      
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs12 content4" style="background-color: #218c74;">     
+    <table>
+      <tr>
+        <td width="300px"><a href="sarandankomentar.html"><img src="images/Feedback.jpg"></a></td>
+        <td align="left" width="700px"><span class="info-box-text"><b><a class="text-info" href="sarandankomentar.html"><h4>Saran dan Komentar</h4></a></b></span><br>
+      <span><a  href="sarandankomentar.html">Kumpulan saran dan komentar yang ditujukan ke sekolah</a></span><br>
+      <span><a  href="sarandankomentar.html">terkait dengan klasifikasi yang diberikan</a></span><br>
+      <span><a  href="sarandankomentar.html">serta saran pengembangan sistem.</a></span></td>
+      </tr>  
+    </table>    
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs12 content4" style="background-color: #218c74">
+      <table>
+      <tr>
+        <td width="300px"><a href="kontak.html"><img src="images/contact.png"></a></td>
+        <td align="left" width="700px"><span class="info-box-text"><b><a class="text-info" href="kontak.html"><h4>Informasi Kontak</h4></a></b></span><br>
+      <span><a href="kontak.html">Informasi kontak yang bisa dihubungi</a></span>
+      </tr>  
+    </table> 
+    </div>    
+  </div>
+</div>
+<br><br>
+
+<footer class="container-fluid text-center" style="
+    margin-top: -60px; background-color: #218c74;
+">
+  <p>Copyright by SEKOLAHKU 2018</p>  
+</footer>
+
+
+
+</body></html>

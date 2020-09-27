@@ -1,0 +1,13 @@
+.mynavbar {
+	background-color:#ccc;
+	margin-bottom:0px !important;
+}
+.myjumbotron {
+	background-image: url('../images/logo.jpg');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+	height:400px;
+}
